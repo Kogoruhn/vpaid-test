@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+    <Error><![CDATA[https://ads.adfox.ru/ERROR_VAST-VPAID&code=[ERRORCODE]]]></Error>
+    <Ad>
+        <InLine>
+            <AdSystem>Uma.Tech</AdSystem>
+            <AdTitle>Uma.Tech</AdTitle>
+            <Error>
+                <![CDATA[https://ads.adfox.ru/ERROR_AD-VPAID&code=[ERRORCODE]]]>
+            </Error>
+            <Impression>
+                <![CDATA[https://ads.adfox.ru/IMPRESSION-VPAID]]>
+            </Impression>
+			<Creatives>
+				<Creative>
+					<Linear>
+						<Duration>00:00:30</Duration>
+						<MediaFiles>
+							<MediaFile delivery="progressive" width="640" height="360" type="application/javascript" apiFramework="VPAID">
+								<![CDATA[https://raw.githubusercontent.com/Kogoruhn/vpaid-test/main/VPAID.js]]>
+							</MediaFile>
+						</MediaFiles>
+						<VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[https://ads.adfox.ru/CLICKTHROUGH-VPAID]]>
+                            </ClickThrough>
+                        </VideoClicks>
+						<TrackingEvents>
+                            <Tracking event="start">
+                                <![CDATA[https://ads.adfox.ru/START-VPAID]]>
+                            </Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[https://ads.adfox.ru/FIRST-QUARTILE-VPAID]]>
+                            </Tracking>
+                            <Tracking event="midpoint">
+                                <![CDATA[https://ads.adfox.ru/MIDPOINT-VPAID]]>
+                            </Tracking>
+                            <Tracking event="thirdQuartile">
+                                <![CDATA[https://ads.adfox.ru/THIRD-QUARTILE-VPAID]]>
+                            </Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[https://ads.adfox.ru/COMPLETE-VPAID]]>
+                            </Tracking>
+                            <Tracking event="creativeView">
+                                <![CDATA[https://ads.adfox.ru/CREATIVEVIEW-VPAID]]>
+                            </Tracking>
+                            <Tracking event="mute">
+                                <![CDATA[https://ads.adfox.ru/MUTE-VPAID]]>
+                            </Tracking>
+                            <Tracking event="unmute">
+                                <![CDATA[https://ads.adfox.ru/UNMUTE-VPAID]]>
+                            </Tracking>
+                            <Tracking event="pause">
+                                <![CDATA[https://ads.adfox.ru/PAUSE-VPAID]]>
+                            </Tracking>
+                            <Tracking event="resume">
+                                <![CDATA[https://ads.adfox.ru/RESUME-VPAID]]>
+                            </Tracking>
+                        </TrackingEvents>
+					</Linear>
+				</Creative>
+			</Creatives>
+        </InLine>
+    </Ad>
+</VAST>
